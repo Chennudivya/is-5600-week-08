@@ -7,6 +7,7 @@ const mockProducts = [
     { description: 'Product 2' }
 ];
 
+
 /**
  * Mock Mongoose Query object.
  * This simulates Mongoose's chainable query interface.
