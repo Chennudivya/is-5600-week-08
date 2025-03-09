@@ -10,6 +10,7 @@ describe('Orders Module', () => {
   // Populate the database with dummy data
   beforeAll(async () => {
     //assemble
+    
     await productTestHelper.setupTestData();
     await productTestHelper.createTestOrders(5);
   });
